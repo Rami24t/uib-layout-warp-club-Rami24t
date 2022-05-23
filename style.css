@@ -7,6 +7,7 @@ body {
   background-image: url(./assets/background.jpg);
   background-size: contain;
   font-family: "Jura";
+  overflow: hidden;
 }
 nav {
   display: flex;
@@ -27,12 +28,22 @@ button {
   color: aliceblue;
   padding: 2px 6px;
   background-color: red;
-  border-color: orangered;
+  border: none;
   border-radius: 9px;
 }
 nav ul {
   display: flex;
   gap: 2vw;
+}
+nav a {
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: overline;
+}
+button:hover {
+  color: red;
+  background-color: whitesmoke;
 }
 main {
   display: flex;
@@ -48,8 +59,13 @@ main div {
   min-height: 96vh;
   color: red;
   font-weight: 900;
-  font-size: 8vw;
+  font-size: 15vh;
   display: flex;
+}
+main div:nth-of-type(2) {
+  background-image: url(./assets/main.jpg);
+  background-size: cover;
+  background-position: right top;
 }
 div p {
   margin: auto;
