@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(./assets/background.jpg);
+  background-size: contain;
+  font-family: "Jura";
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 4px 12px 4px 12px;
+  color: aliceblue;
+}
+nav ul {
+  list-style-type: none;
+}
+header {
+  top: 0;
+  background-color: rgba(128, 128, 128, 0.582);
+  width: 100%;
+}
+button {
+  color: aliceblue;
+  padding: 2px 6px;
+  background-color: red;
+  border-color: orangered;
+  border-radius: 9px;
+}
+nav ul {
+  display: flex;
+  gap: 2vw;
+}
+main {
+  display: flex;
+  flex-direction: row;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+main div {
+  flex: 1;
+  min-height: 96vh;
+  color: red;
+  font-weight: 900;
+  font-size: 8vw;
+  display: flex;
+}
+div p {
+  margin: auto;
+  rotate: 90deg;
+}
