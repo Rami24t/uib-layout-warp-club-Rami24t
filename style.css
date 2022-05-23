@@ -65,7 +65,7 @@ main div {
 main div:nth-of-type(2) {
   background-image: url(./assets/main.jpg);
   background-size: cover;
-  background-position: right top;
+  background-position: center center;
 }
 div p {
   margin: auto;
