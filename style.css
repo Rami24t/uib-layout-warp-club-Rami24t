@@ -30,6 +30,7 @@ button {
   background-color: red;
   border: none;
   border-radius: 9px;
+  border: 1px solid white;
 }
 nav ul {
   display: flex;
@@ -49,14 +50,14 @@ main {
   display: flex;
   flex-direction: row;
 }
-img {
+/* img {
   width: 100%;
   height: auto;
   display: block;
-}
+} */
 main div {
   flex: 1;
-  min-height: 96vh;
+  min-height: calc(100vh - 20px);
   color: red;
   font-weight: 900;
   font-size: 15vh;
@@ -69,5 +70,5 @@ main div:nth-of-type(2) {
 }
 div p {
   margin: auto;
-  rotate: 90deg;
+  writing-mode: vertical-lr;
 }
