@@ -1,4 +1,4 @@
-# Warp Club - My solution - Live Version (Fully Responsive)
+# My solution - Live Version (Fully Responsive)
 
 https://rami24t.github.io/uib-layout-warp-club-Rami24t/
 
